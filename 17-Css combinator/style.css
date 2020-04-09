@@ -1,0 +1,4 @@
+.list > .item-1 + .item + .item-3  {
+    color: red;
+    border: 1px solid black;
+}

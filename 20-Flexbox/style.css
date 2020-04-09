@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+    background-color: cornsilk;
+    
+}
+#item-1 {
+    background-color: red;
+    flex-basis: 200px;
+}
+#item-2 {
+    background-color: green;
+    flex-basis: 300px;
+
+    flex-shrink: 0;
+}
+#item-3 {
+    background-color: blue;
+    flex-basis: 200px;
+}
+

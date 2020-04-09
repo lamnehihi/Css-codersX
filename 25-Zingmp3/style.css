@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+
+.weekly-songs {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    margin: 5px 0;
+}
+
+.weekly-songs .count-item {
+    padding: 0 8px;
+    font-size: 20px;
+}
+
+.weekly-songs .infor {
+    flex-grow: 1;
+}
+.weekly-songs .infor .song-author{
+    font-size: 14px;
+    color: #AAA;
+    padding-top: 3px;
+}
+
+.weekly-songs .count-view {
+    color: #AAA;
+}
